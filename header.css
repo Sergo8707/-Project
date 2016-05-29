@@ -35,8 +35,7 @@
         opacity: 1;
     }
 
-    .header-nav,
-    .header-logo {
+    .header-nav {
         float: none;
     }
 }

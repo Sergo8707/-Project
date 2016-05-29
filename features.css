@@ -9,14 +9,14 @@
 
 
 .footer {
-	position: fixed; /* Фиксированное положение */
-	left: 0; bottom: 0; /* Левый нижний угол */
-	color: grey; /* Цвет текста */
-	width: 100%; /* Ширина слоя */
+	position: fixed;
+	left: 0; bottom: 0;
+	color: grey;
+	width: 100%;
 }
 .footer-text {
-	padding: 17px; /* Поля вокруг текста */
-	background: #f3f3f3; /* Цвет фона */
+	padding: 17px;
+	background: #f3f3f3;
 }
 
 
@@ -27,6 +27,6 @@
 }
 
 .footer-text-right {
-	text-indent: 1.5em; /* Отступ первой строки */
-	text-align: justify; /* Выравнивание по ширине */
+	text-indent: 1.5em;
+	text-align: justify;
 }
