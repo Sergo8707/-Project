@@ -15,6 +15,11 @@
     <link rel="stylesheet" href="fares.css">
     <link rel="stylesheet" href="action.css">
     <link rel="stylesheet" href="header.css">
+
+    <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="parallax.js-1.4.2/parallax.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="header.js"></script>
 </hrad>
 <body>
 <div class="header">
@@ -22,16 +27,16 @@
         <div class="header-nav">
             <ul>
                 <li class="header-nav-item">
-                    <a href="#intro" class="button9">Главня</a>
+                    <a href="#intro" class="button9 header-nav-link">Главня</a>
                 </li>
                 <li class="header-nav-item">
-                    <a href="#projects" class="button9">Проекты</a>
+                    <a href="#projects" class="button9 header-nav-link">Проекты</a>
                 </li>
                 <li class="header-nav-item">
-                    <a href="#prices-m" class="button9">Цены</a>
+                    <a href="#prices-m" class="button9 header-nav-link">Цены</a>
                 </li>
                 <li class="header-nav-item">
-                    <a href="#contacts" class="button9">Контакты</a>
+                    <a href="#contacts" class="button9 header-nav-link">Контакты</a>
                 </li>
             </ul>
         </div>
@@ -39,7 +44,7 @@
 </div>
 
 
-<div class="intro text-center" id="intro">
+<div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="bg.jpg">
     <img class="intro-logo" src="logo.png" alt="[Лого]">
 
     <h1 class="title-large">Sergei Drach</h1>
@@ -86,14 +91,14 @@
                     <img src="icons/bulb.png" alt="[Лампочка]">
                 </div>
                 <p class="title-medium">Будь<br>умнее</p>
-                <p content="text-lead" id="projects">Зарабатывать деньги в интернете</p>
+                <p content="text-lead">Зарабатывать деньги в интернете</p>
             </div>
         </div>
     </div>
 </div>
 
 
-<div class="container" >
+<div class="container" id="projects">
     <div class="column-1-2-40">
         <img src="https://freelance.ru/img/portfolio/pics/00/0C/63/811838.jpg" class="project-img">
     </div>

@@ -46,6 +46,13 @@
     height: auto;
 }
 
+.member-social-icon:hover {
+    url("bg.jpg")
+    width: 32px;
+    height: auto;
+}
+
+
 .icon-www {
     width: 27px;
     height: auto;
