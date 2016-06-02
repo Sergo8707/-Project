@@ -12,15 +12,16 @@
 }
 
 .intro-logo {
-    width: 120px;
+    width: 100px;
     height: auto;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
 }
 
 .intro .text-lead {
-    color: #d3d3d3;
-    max-width: 70%;
-    margin: 0 15%;
+    color: #ffffff;
+    max-width: 100%;
+    margin: 0 5%;
+    padding: 5px;
 }
 
 .project-img {

@@ -8,7 +8,7 @@
 
 
 .header-nav {
-    float: right;
+    float: none;
     vertical-align: baseline;
     line-height: 10px;
 }
@@ -22,7 +22,7 @@
 
 .header-nav-link {
     text-decoration: none;
-    color: grey;
+    color: #444;
     font-weight: bold;
 }
 
