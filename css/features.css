@@ -1,0 +1,32 @@
+.features {
+    padding: 40px;
+    background: #f3f3f3;
+}
+
+.features-item {
+    padding: 10px;
+}
+
+
+.footer {
+	position: fixed;
+	left: 0; bottom: 0;
+	color: grey;
+	width: 100%;
+}
+.footer-text {
+	padding: 18px;
+	background: #f3f3f3;
+}
+
+
+.member-social-footer {
+	display: inline-block;
+	float: right;
+	background: #f3f3f3;
+}
+
+.footer-text-right {
+	text-indent: 1.5em;
+	text-align: justify;
+}

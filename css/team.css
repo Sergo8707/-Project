@@ -40,3 +40,21 @@
     display: inline-block;
     padding: 8px 20px 5px;
 }
+
+.member-social-icon {
+    width: 32px;
+    height: auto;
+}
+
+.member-social-icon:hover {
+    url("bg.jpg")
+    width: 32px;
+    height: auto;
+}
+
+
+.icon-www {
+    width: 27px;
+    height: auto;
+    padding: 0px 3px;
+}

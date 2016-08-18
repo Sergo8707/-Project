@@ -1,0 +1,40 @@
+.intro {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll, fixed;
+    background-position: 0 0%, center top;
+
+    color: #fff;
+    padding: 88px;
+    margin-top: 76px;
+}
+
+.intro-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.intro .text-lead {
+    color: #ffffff;
+    max-width: 100%;
+    margin: 0 5%;
+    padding: 5px;
+}
+
+.project-img {
+    width: 505px;
+    height: 525px;
+}
+
+.project-img-2 {
+    width: 400px;
+    height: 260px;
+}
+
+.project-img-3 {
+    width: 400px;
+    height: 260px;
+}

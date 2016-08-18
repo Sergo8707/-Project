@@ -7,7 +7,7 @@ body {
 
 .title-large {
     font-size: 48px;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 .title-medium {
@@ -40,7 +40,14 @@ body {
     padding-bottom: 10px;
 }
 
+.text-contacts {
+    font-size: 65px;
+    font-style: italic;
+    line-height: 100%;
+    padding-bottom: 150px;
+    color: #0103c0;
+}
+
 .text-center {
     text-align: center;
-
 }
