@@ -3,52 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Закажи сайт</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="css/reset.css">
 
-    <link rel="stylesheet" href="text.css">
-    <link rel="stylesheet" href="intro.css">
-    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="css/text.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/button.css">
 
-    <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="features.css">
-    <link rel="stylesheet" href="team.css">
-    <link rel="stylesheet" href="fares.css">
-    <link rel="stylesheet" href="action.css">
-    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/features.css">
+    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="css/fares.css">
+    <link rel="stylesheet" href="css/action.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/form.css">
 
     <script type="text/javascript" charset="UTF-8" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script type="text/javascript" charset="UTF-8" src="parallax.js-1.4.2/parallax.min.js"></script>
 
-    <script type="text/javascript" charset="utf-8" src="header.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/header.js"></script>
 </head>
 <body>
 <div class="header">
     <div class="container text-center">
         <div class="header-nav">
-            <a href="#intro" class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s" data-text="Главная"><span>Главная</span></a>
-         </div>
-
-        <div class="header-nav">
-            <a href="#projects" class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s" data-text="Проекты"><span>Проекты</span></a>
+            <a href="#intro"
+               class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s"
+               data-text="Главная"><span>Главная</span></a>
         </div>
 
         <div class="header-nav">
-            <a href="#prices-m" class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s" data-text="Цены"><span>Цены</span></a>
+            <a href="#projects"
+               class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s"
+               data-text="Проекты"><span>Проекты</span></a>
         </div>
 
         <div class="header-nav">
-            <a href="#contacts" class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s" data-text="Контакты"><span>Контакты</span></a>
+            <a href="#prices-m"
+               class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s"
+               data-text="Цены"><span>Цены</span></a>
+        </div>
+
+        <div class="header-nav">
+            <a href="#contacts"
+               class="header-nav-link  button-men button--rayen button--border-thin  button--text-upper button--size-s"
+               data-text="Контакты"><span>Контакты</span></a>
         </div>
     </div>
 </div>
 
-<div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="bg.jpg">
-    <img class="intro-logo" src="logo.png" alt="[Лого]">
+<div class="intro text-center" id="intro" data-parallax="scroll" data-image-src="icons/bg.jpg">
+    <img class="intro-logo" src="icons/logo.png" alt="[Лого]">
     <h1 class="title-large">Sergei Drach</h1>
     <h1 class="text-lead">веб-дизайнер</h1>
     <p>&nbsp;</p>
     <div class="buffer-both">
-        <a class="button button-green" href="#">Заказать сайт</a>
+        <a class="button button-green header-nav-link" href="#contacts">Заказать сайт</a>
     </div>
 </div>
 
@@ -59,7 +68,7 @@
                 <div class="features-icon">
                     <img src="icons/profile-male.png" alt="[Чувак]">
                 </div>
-                <p class="title-medium">&nbsp;2<br>людей</p>
+                <p class="title-medium">&nbsp;2<br>человека</p>
                 <p content="text-lead">Уже заказали сайт</p>
             </div>
         </div>
@@ -98,10 +107,12 @@
         <img src="https://freelance.ru/img/portfolio/pics/00/0C/63/811838.jpg" class="project-img" alt="[Пример 1]">
     </div>
     <div class="column-1-2-60">
-        <img src="http://vladmaxi.net/uploads/2013/09/PSD-maket-dlya-portfolio-Space.jpg" class="project-img-2" alt="[Пример 2]">
+        <img src="http://vladmaxi.net/uploads/2013/09/PSD-maket-dlya-portfolio-Space.jpg" class="project-img-2"
+             alt="[Пример 2]">
     </div>
     <div class="column-1-2-60">
-        <img src="http://rugraphics.ru/sites/default/files/less_phot/sozdayom-maket-avtosayta/001.jpg" class="project-img-3" alt="[Пример 3]">
+        <img src="http://rugraphics.ru/sites/default/files/less_phot/sozdayom-maket-avtosayta/001.jpg"
+             class="project-img-3" alt="[Пример 3]">
     </div>
 </div>
 
@@ -186,34 +197,59 @@
 
 <div class="text-center" id="contacts">
     <div class="container buffer-both-large">
-        <h2 class="title-medium">Контакты</h2>
     </div>
 </div>
 
 <div class="container">
     <div class="column-1-2-40 ">
-        <h2 class="text-contacts">Тут будет окно вопросов</h2>
+        <div class="action-details">
+            <p class="title-medium">Окно заказов!</p>
+            <div class="form">
+                <form action="https://docs.google.com/forms/d/e/1FAIpQLSeQg-24uIZu9j8w9kuUX5BQYLb3dunO_gONzmN8RXnvE-kajQ/formResponse"
+                      target="_self" method="POST" id="mG61Hd">
+
+                    <p class="buffer-both">
+                        <input class="form-input-text" type="text" name="entry.519658167" placeholder="Ваше имя"/>
+                    </p>
+                    <p class="buffer-both">
+                        <input class="form-input-text" type="text" name="entry.735938913" placeholder="Ваш email"/>
+                    </p>
+                    <p class="buffer-both">
+                        <input class="form-input-text" type="text" name="entry.779858305" placeholder="Ваше телефон"/>
+                    </p>
+                    <p class="buffer-both">
+                        <input class="form-text" type="text" name="entry.187563079" placeholder="Текст"/>
+                    </p>
+                    <div class="buffer-both">
+                        <input type="submit" class="button button-green" value="Отправить"/>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
+    <div class="space-1"></div>
     <div class="column-1-2-contact text-lend">
+        <h2 class="title-medium">Контакты</h2>
         <p><img class="member-social-icon" src="social/address.png" alt="[address]"/>&nbsp;Украина,
             Киев, ул. Туполева 17</p>
         <p><img class="member-social-icon" src="social/phone.png" alt="[phone]"/>&nbsp;+ 38 (063)
             628 18 18</p>
         <p><img class="member-social-icon" src="social/skype.png" alt="[skype]"/>&nbsp;sergo8707</p>
         <p><img class="member-social-icon" src="social/mail.png" alt="[mail]"/>&nbsp;sergo8707@gmail.com</p>
-        <p><img class="member-social-icon" src="social/web.png" alt="[web]"/>&nbsp;www.drach.com</p>
-        <p>&nbsp;</p>
-        <p>&nbsp;</p>
+        <p><a href="http://sergo8707.github.io/My_website_2.0/english.html"><img class="member-social-icon"
+                                                                                 src="social/web.png" alt="[web]"/>&nbsp;My
+            website</a></p>
     </div>
 </div>
+<div class="space"></div>
 
 <div class="footer">
     <div class="footer-text">
         &copy; Sergei Drach
         <div class="member-social-footer">
-            <img class="member-social-icon" src="social/youtube.png" alt="[youtube]"/>
-            <img class="member-social-icon" src="social/facebook.png" alt="[facebook]"/>
-            <img class="member-social-icon" src="social/twitter.png" alt="[twitter]"/>
+            <a href="https://www.facebook.com/sergey.drach.9"><img class="member-social-icon"
+                                                                   src="social/facebook-hover.png"
+                                                                   alt="[facebook]"/></a>
         </div>
     </div>
 </div>

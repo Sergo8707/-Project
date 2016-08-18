@@ -15,7 +15,7 @@
 }
 
 .buffer-both {
-    margin-top: 1px;
+    margin-top: 10px;
     margin-bottom: 1px;
 }
 
@@ -53,8 +53,15 @@
 .column-1-2-40 {
     float: left;
     width: 50%;
-    color: #fff;
-    background: #fff;
+    color: #444;
+    background: #ffffff;
+}
+
+.space {
+    margin-bottom: 60px;
+}
+.space-1 {
+    margin-bottom: 20px;
 }
 
 .column-1-2-60 {
