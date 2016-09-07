@@ -44,14 +44,13 @@
 .member-social-icon {
     width: 32px;
     height: auto;
+    margin-right: 10px;
 }
 
 .member-social-icon:hover {
-    url("bg.jpg")
-    width: 32px;
+url("bg.jpg") width: 32 px;
     height: auto;
 }
-
 
 .icon-www {
     width: 27px;
